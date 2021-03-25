@@ -10,7 +10,6 @@ namespace Time
     {
         static string filePath = @"/home/andy/Desktop/time.txt";
         static int times;
-        static long StartTime;
         static float WeekTime;
 
       
@@ -65,6 +64,12 @@ namespace Time
                 float t = float.Parse(Console.ReadLine());
                 WeekTime += t;
                 times += 1;
+                Console.Write("Add more time? (y/n): ");
+                string input2 = Console.ReadLine();
+                if(input2 == "y")
+                {
+                    AddTime();
+                }
             }
             else
             {
@@ -75,6 +80,7 @@ namespace Time
                 {
                     WriteTimeToTxt();
                 }
+                
             }
         }
         
@@ -96,6 +102,7 @@ namespace Time
                 
             }
             WeekTime = 0;
+            times = 0;
         }
 
     }
