@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LqQky7/2DvFU0UwCDaLOCMliRxWvySE+TrI+yX6y+HuQxi172SsdTWjOrkTBoc44+ljfu4SB83P77jBrafM29A==",
+  "success": true,
+  "projectFilePath": "/home/andy/Documents/projects/Time/Time.csproj",
+  "expectedPackageFiles": [
+    "/home/andy/.nuget/packages/mcmaster.extensions.commandlineutils/3.1.0/mcmaster.extensions.commandlineutils.3.1.0.nupkg.sha512",
+    "/home/andy/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
