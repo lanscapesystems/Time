@@ -47,9 +47,7 @@ namespace Time
 
                 }
             }
-        }
-
-              
+        }              
 
         static private void ShowTime()
         {
@@ -101,6 +99,7 @@ namespace Time
                 outputFile.WriteLine("Week of Monday, "+dateOfLastMonday+": "+WeekTime+" Hours");
                 
             }
+            Console.WriteLine("Hours written to "+filePath);
             WeekTime = 0;
             times = 0;
         }
