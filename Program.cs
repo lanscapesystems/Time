@@ -84,7 +84,6 @@ namespace Time
         
         static private void WriteTimeToTxt()
         {
-
  
              DateTime date = DateTime.Today;
 
