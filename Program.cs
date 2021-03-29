@@ -56,10 +56,20 @@ namespace Time
 
         static private void AddTime()
         {   
+            float t = 0;
+            
             if(times <7)
             {
-                Console.Write("Time to add in hours: ");
-                float t = float.Parse(Console.ReadLine());
+
+                try
+                {
+                    Console.Write("Time to add in hours: ");
+                    t = float.Parse(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Failed: Make sure to only type numbers");
+                }
                 WeekTime += t;
                 times += 1;
                 Console.Write("Add more time? (y/n): ");
